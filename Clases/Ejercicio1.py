@@ -10,10 +10,11 @@ class Correo:
             re.search(" @ * . * .com *", correo_electronico)
             print("El correo electronico es correcto, bienvenido a la página web.")
         except:
-            error_ortografia = re.search(" @ * . * .com *", correo_electronico)
-            if correo_electronico != error_ortografia:
-                print("Lo sentimos, introduzca una direccion de correo valida.")  
+            ataque = re.search(" @ * . * .com *", correo_electronico)
+            if correo_electronico != ataque:
+                print ("Se ha producido un ciber ataque.")  
         else:
+            
 
         
 
