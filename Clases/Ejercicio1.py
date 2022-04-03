@@ -21,8 +21,4 @@ class Correo:
             
 
         
-
-
-            
-correo_electronico = input("introduzca el correo electrónico para el inicio de sesión: ")
 correo = ["vicente@gmail.com" , "claudia@gmail.com"]
